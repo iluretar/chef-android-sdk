@@ -23,7 +23,9 @@ default['android-sdk']['download_url']              = "http://dl.google.com/andr
 default['android-sdk']['components']                = %w( platform-tools
                                                           build-tools-23.0.1
                                                           android-23
-                                                          extra-android-support )
+                                                          extra-android-support
+                                                          extra-google-m2repository
+                                                          extra-android-m2repository)
 
 default['android-sdk']['license']['white_list']     = %w(.+)
 default['android-sdk']['license']['black_list']     = []    # e.g. ['intel-.+', 'mips-.+', 'android-wear-sdk-license-.+']
