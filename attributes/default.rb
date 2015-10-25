@@ -23,29 +23,7 @@ default['android-sdk']['download_url']              = "http://dl.google.com/andr
 default['android-sdk']['components']                = %w( platform-tools
                                                           build-tools-23.0.1
                                                           android-23
-                                                          sys-img-armeabi-v7a-android-23
-                                                          sys-img-armeabi-v7a-android-tv-23
-                                                          android-22
-                                                          sys-img-armeabi-v7a-android-22
-                                                          android-21
-                                                          sys-img-armeabi-v7a-android-21
-                                                          android-20
-                                                          sys-img-armeabi-v7a-android-wear-20
-                                                          android-19
-                                                          sys-img-armeabi-v7a-android-19
-                                                          android-18
-                                                          sys-img-armeabi-v7a-android-18
-                                                          android-17
-                                                          sys-img-armeabi-v7a-android-17
-                                                          android-16
-                                                          sys-img-armeabi-v7a-android-16
-                                                          android-15
-                                                          sys-img-armeabi-v7a-android-15
-                                                          android-10
-                                                          extra-android-support
-                                                          extra-google-google_play_services
-                                                          extra-google-m2repository
-                                                          extra-android-m2repository )
+                                                          extra-android-support )
 
 default['android-sdk']['license']['white_list']     = %w(.+)
 default['android-sdk']['license']['black_list']     = []    # e.g. ['intel-.+', 'mips-.+', 'android-wear-sdk-license-.+']
