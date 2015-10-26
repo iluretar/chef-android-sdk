@@ -1,5 +1,5 @@
 # TODO: decide which way we depend on maven (weak dependency, conditional include_recipe or always include_recipe?)
-include_recipe "maven"
+# include_recipe "maven"
 
 maven_android_sdk_deployer_root = node['android-sdk']['setup_root'].to_s.empty? ? node['ark']['prefix_home'] : node['android-sdk']['setup_root']
 maven_android_sdk_deployer_home = File.join(maven_android_sdk_deployer_root, node['android-sdk']['maven-android-sdk-deployer']['name'])
