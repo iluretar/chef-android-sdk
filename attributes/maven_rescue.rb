@@ -1,6 +1,6 @@
 
 default['android-sdk']['maven-android-sdk-deployer']['name']            = 'maven-android-sdk-deployer'
-default['android-sdk']['maven-android-sdk-deployer']['version']         = '881915c628650cbc275eaa111ce8e715016f43b2'
+default['android-sdk']['maven-android-sdk-deployer']['version']         = '94865de588976725570320459bf2ce3921ef8f5a'
 default['android-sdk']['maven-android-sdk-deployer']['git_repository']  = 'https://github.com/mosabua/maven-android-sdk-deployer.git'
 
 # FIXME: this default is crappy, as $HOME is not well handled by the recipe.
